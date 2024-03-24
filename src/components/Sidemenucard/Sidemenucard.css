@@ -1,3 +1,7 @@
-.feature{
+.feature::before{
+    content: '';
+    position: absolute;
+    inset: 0;
     background: url('./featureframe.png') no-repeat center/cover;
+    z-index: -1;
 }

@@ -1,7 +1,4 @@
-.feature {
-    background: url('./featureframe.png') no-repeat center/cover;
 
-}
 
 .feature li::before {
     content: '✓';

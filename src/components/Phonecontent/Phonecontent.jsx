@@ -44,7 +44,7 @@ function Phonecontent() {
       
       <Sidemenucard/>
       
-      <h1 className="mt-4">Quick Actions</h1>
+      <h1 className="mt-4 ml-4">Quick Actions</h1>
       <div  className="flex justify-between mx-3 my-5">
         <div className="shadow-lg flex gap-3 bg-white rounded-2xl  sm:w-[45%] px-4 items-center py-2 md:text-sm  text-xs">
           <img src="./youtube.png" alt="" className="h-8 w-8"/>

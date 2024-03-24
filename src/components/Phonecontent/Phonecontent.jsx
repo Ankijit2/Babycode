@@ -7,16 +7,18 @@ import Childcard from "../Childcard/Childcard";
 function Phonecontent() {
   return (
     <div className="bg-gray-100">
-      <div className="bg-[#1054d2] p-5">
+      <div className="bg-[#1054d2] p-5 text-white">
         <div className="flex justify-between px-4">
           <img src="./profile.png" alt="" className="h-8" />
-          <p>Home</p>
+          <p className="text-lg">Home</p>
           <img src="./instagram.png" alt="" className="h-8" />
         </div>
-        <div className="flex mt-5 justify-center">
-          <button className=" btn w-20 h-8 text-center rounded-full">IELTS <span className="btnhover">|</span></button>
-          <button className=" btn w-20 h-8 text-center rounded-full">PTE <span className="btnhover"> |</span></button>
-          <button className=" btn w-20 h-8 text-center rounded-full">TOEFL <span className="btnhover">|</span></button>
+        <div className="flex justify-center ">
+          <div className="inline-flex bg-blue-400 mt-5 rounded-full">
+            <button className=" btn w-20 h-8 text-center rounded-full ">IELTS <span className="btnhover">|</span></button>
+            <button className=" btn w-20 h-8 text-center rounded-full ">PTE <span className="btnhover"> |</span></button>
+            <button className=" btn w-20 h-8 text-center rounded-full ">TOEFL <span className="btnhover">|</span></button>
+          </div>
         </div>
       </div>
       <div>
@@ -25,10 +27,10 @@ function Phonecontent() {
       <div className="mx-2 shadow-lg">
         <Chart />
 
-        
+
       </div>
       <div className="mx-2 mt-5">
-      <Prepareitems />
+        <Prepareitems />
       </div>
       <div className="flex sm:gap-5 gap-2 items-center w-11/12 mx-auto my-10 bg-white shadow-lg rounded-full py-2 px-4">
         <img src="./checklist.png" alt="" className="h-10 w-10" />
@@ -41,20 +43,20 @@ function Phonecontent() {
         </div>
 
       </div>
-      
-      <Sidemenucard/>
-      
+
+      <Sidemenucard />
+
       <h1 className="mt-4 ml-4">Quick Actions</h1>
-      <div  className="flex justify-between mx-3 my-5">
-        <div className="shadow-lg flex gap-3 bg-white rounded-2xl  sm:w-[45%] px-4 items-center py-2 md:text-sm  text-xs">
-          <img src="./youtube.png" alt="" className="h-8 w-8"/>
+      <div className="flex justify-between mx-3 my-5">
+        <div className="shadow-lg flex  gap-3 bg-white rounded-2xl  sm:w-[45%] px-4 items-center py-2 md:text-sm  text-xs">
+          <img src="./youtube.png" alt="" className="h-8 w-8" />
           <h3>App video guide</h3>
         </div>
-        <div className="shadow-lg flex gap-3 bg-white rounded-2xl sm:w-[45%]  px-4 items-center py-2 md:text-sm  text-xs">
-          <img src="./whatsapp.png" alt="" className="h-8 w-8"/>
+        <div className="shadow-lg flex gap-3 ite bg-white rounded-2xl sm:w-[45%]  px-4 items-center py-2 md:text-sm  text-xs">
+          <img src="./whatsapp.png" alt="" className="h-8 w-8" />
           <h3>Help & Support</h3></div>
       </div>
-      <Childcard/>
+      <Childcard />
     </div>
   );
 }

@@ -1,5 +1,6 @@
 import React from 'react'
 import { exploreitem } from '../../javascript/data'
+import './Sidemenucard.css'
 
 function Sidemenucard() {
   return (

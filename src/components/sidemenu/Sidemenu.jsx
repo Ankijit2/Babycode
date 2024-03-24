@@ -1,6 +1,7 @@
 import React from 'react'
 import './sidemenu.css'
 import { menudata,exploreitem } from '../../javascript/data.js'
+import Sidemenucard from '../Sidemenucard/Sidemenucard.jsx'
 
 function Sidemenu({ basis }) {
 
@@ -27,7 +28,7 @@ function Sidemenu({ basis }) {
         })}
       </ul>
 
-   
+   <Sidemenucard/>
       <button className='flex w-11/12 gap-3 my-5 items-center justify-center'>
         <span className="material-symbols-outlined text-2xl px-2 my-2">
           logout

@@ -9,7 +9,7 @@ function Prepareitems() {
                     {preparaton.map((item, index) => {
                         return (
                             <div key={index} className='flex gap-3 flex-col items-center prepareitems'>
-                                <img src={item.img} alt="" className='h-28' />
+                                <img src={item.img} alt="" className='md:h-28 h-24' />
                                 <p className='text-center text-sm font-semibold'>{item.text}</p>
                             </div>
                         )
